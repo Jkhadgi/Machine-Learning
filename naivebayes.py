@@ -17,7 +17,7 @@ from sklearn.naive_bayes import MultinomialNB
 from datasets import datasets_folder
 from util import NaiveBayes, pre_processing, accuracy_score  #calling the custom function
 
-data, mytest_data = datasets_folder("D:/Jasmita/Lecture/ML_DL/CA/1/data/data")
+data, mytest_data = datasets_folder("D:/data/data")
 
 
 dataframe = pd.DataFrame(data, columns=["text","labels"])
